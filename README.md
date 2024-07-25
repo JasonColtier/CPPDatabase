@@ -3,11 +3,10 @@
 todo :
 
 * printf
-* smart pointers
+* smart pointers - OK
 * iterators
 * lambda expression
 * move semantics
-*
 * exceptions
 * friend
 * inline
