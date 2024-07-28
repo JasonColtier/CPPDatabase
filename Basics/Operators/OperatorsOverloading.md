@@ -7,6 +7,7 @@ MyClass operator+(MyClass &obj) {
    return res; 
   }
 ```
+On utiliser l'overloading d'opérateurs sur un objet custom, pas sur les objets de la stl car ça peut casser lors d'une maj
 
 On déclare une fonction dans une classe de telle façon
 

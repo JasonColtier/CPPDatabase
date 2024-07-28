@@ -2,7 +2,7 @@
 
 todo :
 
-* printf
+* printf - 
 * smart pointers - OK
 * iterators
 * lambda expression
