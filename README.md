@@ -2,10 +2,10 @@
 
 todo :
 
-* printf - 
+* printf - OK
 * smart pointers - OK
 * iterators
-* lambda expression
+* lambda expression - OK
 * move semantics
 * exceptions
 * friend
