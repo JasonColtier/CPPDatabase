@@ -10,7 +10,7 @@ todo :
 * exceptions
 * friend
 * inline
-* operator overloading
+* operator overloading - OK
 * template
 * RAII stands for "Resource Acquisition Is Initialization":
   A constructor for an object acquires that object's resources and the destructor releases them.
