@@ -9,8 +9,8 @@ todo :
 * friend - OK
 * exceptions - OK
 * template - OK
-* iterators 
-* move semantics
+* iterators - OK
+* move semantics - OK
 * inline - ok
 * static
 * RAII stands for "Resource Acquisition Is Initialization":
