@@ -4,14 +4,15 @@ todo :
 
 * printf - OK
 * smart pointers - OK
-* iterators
 * lambda expression - OK
-* move semantics
-* exceptions
-* friend
-* inline
 * operator overloading - OK
-* template
+* friend - OK
+* exceptions - OK
+* template - OK
+* iterators 
+* move semantics
+* inline - ok
+* static
 * RAII stands for "Resource Acquisition Is Initialization":
   A constructor for an object acquires that object's resources and the destructor releases them.
 * ifstream ofstream

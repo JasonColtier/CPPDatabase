@@ -1,0 +1,3 @@
+# Exceptions
+
+When an exception is raised (using throw), the compiler looks in the nearest enclosing try block (propagating up the stack if necessary to find an enclosing try block -- we’ll discuss this in more detail next lesson) to see if any of the catch handlers attached to the try block can handle that type of exception. If so, execution jumps to the top of the catch block, the exception is considered handled.
