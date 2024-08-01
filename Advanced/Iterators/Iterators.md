@@ -4,4 +4,6 @@
 
 iterators can be **invalidated** when we perform some operations on the container (erase)
 
+It depends on the container and the opration :
+
 https://en.cppreference.com/w/cpp/container/vector#Iterator_invalidation

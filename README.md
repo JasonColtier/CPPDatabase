@@ -29,7 +29,9 @@ todo :
     * void myFunction(int param[10]) ...
     * int myArray[10] = {}; // all elements 0
     * int myArray[10] = { 1, 2 }; // initialize to 1,2,0,0,0...
-* 
+* ifstream + ofstream + rdbuf
+* A->B->C->D 
+* std::memset
 
 
 

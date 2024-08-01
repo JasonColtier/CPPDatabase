@@ -21,3 +21,9 @@ bool operator-(int i){
             return true;
         }
 ```
+
+cant be overriden list : 
+.* pointer to member of object
+. member of object 
+?: 
+:: scope operator
