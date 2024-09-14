@@ -25,4 +25,14 @@ constexpr int y = 20; // y is a constexpr variable with a value of 20
 
 1. **`constexpr`** can be used in contexts where **`const`** cannot, such as array sizes, switch statements, and template arguments.
 
-In summary, **`const`** is used to declare runtime constants, while **`constexpr`** is used to declare compile-time constants. **`constexpr`** can be used in more contexts than **`const`**, and it is generally preferred for values that can be evaluated at compile-time.
+In summary, **`const`** is used to declare runtime constants, while **`constexpr`** is used to declare compile-time constants. **`constexpr`** can be used in more contexts than **`const`**, and it is generally preferred for values that cuan be evaluated at compile-time.
+
+Todo mettre en forme 
+Fonction constexpr
+Marking a function as constexpr means it can be used in a constant expression. It does not mean “will evaluate at compile-time”.
+
+A constant expression (which may contain constexpr function calls) is only required to evaluate at compile-time in contexts where a constant expression is required.
+
+In contexts that do not require a constant expression, the compiler may choose whether to evaluate a constant expression (which may contain constexpr function calls) at compile-time or at runtime.
+
+A runtime (non-constant) expression (which may contain constexpr function calls or non-constexpr function calls) will evaluate at runtime.
