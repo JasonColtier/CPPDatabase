@@ -1,0 +1,3 @@
+A friend class is one that is allowed access to the private and protected members of any class that has declared it a friend. The property is not inherited (subclasses of friends do not become friends automatically), and not transitive (friends of friends are not friends).
+
+Having an understanding of friend classes is valuable for both developing and debugging, and it would be a red flag if the candidate has never heard of it in the context of OO design. That said, the syntax and usage is straightforward, and can easily be referenced as long as the programmer knows that the technique exists.
